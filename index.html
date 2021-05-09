@@ -6,5 +6,19 @@
 </head>
 <body>
 <h1> Valerie Ludden Portfolio</h1>
+<div id="links">
+
+</div>
+<script>
+    for(let i = 1; i < 4; i++){
+        let newDiv = document.createElement("div");
+        let newLink = document.createElement("a");
+        let text = document.createTextNode(`Week ${i}`);
+        newLink.setAttribute(`href`, `./week${i}`);
+        newLink.appendChild(text);
+        newDiv.appendChild(newLink);
+        document.getElementById("links").appendChild(newDiv);
+    }
+</script>
 </body>
 </html>
