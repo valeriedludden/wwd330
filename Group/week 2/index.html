@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<label>Number</label><input>
+<button></button>
+<body>
+<h1>Adding 'a' and 'b'</h1>
+
+a: <input type="number" name="a" id="a"><br> b: <input type="number" name="b" id="b"><br>
+<button onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
+<button onclick="add(document.getElementById('a').value,document.getElementById('b').value)">Add</button>
+
+<script>
+    function add(a, b) {
+        var sum = parseInt(a, 10) + parseInt(b, 10);
+        alert(sum);
+    }
+</script>
+</body>
+</body>
+</html>

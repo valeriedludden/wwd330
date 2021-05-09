@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Array Cardio 💪</title>
+</head>
+<body>
+<p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+<script>
+    function isBigEnough(value) {
+        return value >= 4
+    }
+
+    let filtered = [12, 5, 8, 12, 5, 2, 3, 4.5, 44, 130, 44].filter(isBigEnough) //filter out everything over 4
+        .filter((x, i, a) => a.indexOf(x) == i) // get only distinct values
+        .sort((a, b) => a > b ? 1: -1); // sort by numerical value
+    console.log(filtered);
+
+    //OBJECTS Chapter 5
+
+    const name = 'Iron Man';
+    const realName = 'Tony Stark';
+    // long way - Dont do it it his way
+    // const ironMan = { name: name, realName: realName };
+
+    // short ES6 way - This is the way
+    const ironMan = { name, realName };
+    console.log(ironMan)
+
+    //Set properties with ternary operator
+    const bewitched = true;
+    const captainBritain = { name: 'Captain Britain', hero: bewitched ? false : true };
+    console.log(captainBritain) // hero will = false
+
+    //To print all of the keys of an object
+    for(const key in ironMan) {
+        if (ironMan.hasOwnProperty(key)) { //can add this if you want to make sure it is the objects own property
+            console.log(key + ": " + ironMan[key]);
+        }
+    }
+
+    //An important concept to get your head around is that objects are assigned byreference.
+    // This means that if a variable is assigned to an object that already exists, it will simply point to the exact same space in memory.
+    // So any changes made using either reference will affect the same object.
+
+    // this key word and objects
+    const dice = {
+        sides: 6,
+        roll() {
+            return Math.floor(this.sides * Math.random()) + 1;
+        }
+    }
+    console.log(dice.roll)
+
+    //JSON
+    // The parse() method takes a string of data in JSON format and returns a JavaScript object:
+    //The stringify() method does the opposite, taking a JavaScript object and returning a string of JSON data, as can be seen in the example:
+
+    //DOM Chapter 6
+
+    //The DOM treats everything on a web page as a node. HTML tags, the text inside these tags, even the attributes of a tag are all nodes.
+    // The HTML tag is the root node, and every other part of the document is a child node of this.
+
+    //The add method can be used to add a class to an element without overwriting any classes that already exist. For example, we could add a class of 'warrior' to the wonderWoman element:
+    //wonderWoman.classList.add('warrior');
+    //wonderWoman.className;
+    //<< "hero warrior"
+
+    //To remove a class
+    //wonderWoman.classList.remove('warrior');
+
+
+    //Events Chapter 7
+
+    //The bubble phase can be stopped from occurring by adding the event.stopPropagation() method into the callback function. In the following example, the event will fail to propagate as the third argument is false ,
+    // which stops capturing, and the event.stopPropagation() method is called, which stops bubbling:
+    //liElement.addEventListener('click', (event) => {
+    // console.log('clicked on li');
+    // event.stopPropagation(); }, false);
+
+
+</script>
+</body>
+</html>
