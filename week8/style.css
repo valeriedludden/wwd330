@@ -1,0 +1,64 @@
+ h1:hover span {
+    color: #484848;
+    transform: translateX(40px) scale(1.5);
+}
+ h1 span {
+    font-size: 30px;
+    color: #999999;
+    display: inline-block;
+}
+#ad:hover span {
+    color: red;
+    transform: rotate(10deg) translateX(40px) scale(1.5);
+}
+ #af:hover span {
+     color: blueviolet;
+     transform: skew(15deg, 4deg);
+     transition-property: transform, color;
+     transition-duration: 0.2s, 0.1s;
+     transition-timing-function: ease-out, linear;
+     transition-delay: 50ms;
+ }
+ #ag span {
+     color: blueviolet;
+     transform: skew(15deg, 4deg);
+     transition-property: transform, color;
+     transition-duration: 0.2s, 0.1s;
+     transition-timing-function: ease-out, linear;
+     transition-delay: 50ms;
+ }
+ @keyframes bike {
+     0% {
+         background-position: 0 0;
+     }
+     100% {
+         background-position: -360px 0;
+     }
+ }
+ @keyframes move {
+     0% {
+         transform: translateX(-100px);
+     }
+     100% {
+         transform: translateX(100px);
+     }
+ }
+
+ h2:after {
+     content: '';
+     width: 90px;
+     height: 92px;
+     background-image: url(./beach-sunset.jpg);
+     display: block;
+     margin: auto;
+     animation:
+             0.4s steps(4, end) infinite 50ms bike,
+             8s linear infinite 50ms move;
+     animation-play-state: paused;
+ }
+ h2:hover:after {
+     animation-play-state: running;
+ }
+ .myCanvas {
+     border: dotted 2px black;
+ }
