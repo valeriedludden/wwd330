@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 9</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<h1>Week 9 - wait for the alert </h1>
+<h2>and check the console for a chant count</h2>
+<a href="https://docs.google.com/document/d/1tCtpCo1QKxxfxbg6Ie-0qA_YSVp0d6RV5Mnir1daUqs/edit?usp=sharing">
+    Notes for the week</a>
+<div id='square'></div>
+<div id='square2'></div>
+<div id='square3'></div>
+<button onclick="stop()">Stop Animation</button>
+
+<script>
+    function chant(){ console.log('Beetlejuice'); }
+    window.setTimeout( () => alert("Sorry for the intrusion. I am testing the time out feature."), 3000);
+    const summon2 = window.setInterval(chant,1000);
+    window.setTimeout( () => alert(" Again, Sorry for the intrusion. Now I am testing the chant feature. It has run " + summon2 + " times since you clicked OK"), 8000);
+
+</script>
+<script src='main.js'></script>
+</body>
+</html>
