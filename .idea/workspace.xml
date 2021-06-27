@@ -15,7 +15,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/week4/style.css" />
         <option value="$PROJECT_DIR$/week4/index.html" />
         <option value="$PROJECT_DIR$/week4/action.js" />
         <option value="$PROJECT_DIR$/Group/week4/style.css" />
@@ -90,6 +102,7 @@
         <option value="$PROJECT_DIR$/week10/style.css" />
         <option value="$PROJECT_DIR$/week10/app.js" />
         <option value="$PROJECT_DIR$/week10/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -194,17 +207,17 @@
       <workItem from="1624414943187" duration="641000" />
       <workItem from="1624459794050" duration="12000" />
       <workItem from="1624749827036" duration="1767000" />
-      <workItem from="1624752431531" duration="1257000" />
+      <workItem from="1624752431531" duration="1508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58327000" />
+    <option name="totallyTimeSpent" value="58578000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1489" y="-125" width="1575" height="889" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48211244" visible="true" weight="0.16307893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48211244" visible="true" weight="0.16307893" />
       <window_info id="Structure" order="1" sideWeight="0.5178876" side_tool="true" weight="0.11904762" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" weight="0.3343306" />
@@ -222,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.437421" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.437421" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -235,7 +248,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/week4/style.css" />
     <entry file="file://$PROJECT_DIR$/Group/week5/main.js" />
     <entry file="file://$PROJECT_DIR$/Group/week5/soda.js" />
     <entry file="file://$PROJECT_DIR$/Group/week5/index.html" />
@@ -286,5 +298,15 @@
     <entry file="file://$PROJECT_DIR$/week10/style.css" />
     <entry file="file://$PROJECT_DIR$/week10/app.js" />
     <entry file="file://$PROJECT_DIR$/week10/index.html" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
