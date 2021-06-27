@@ -19,6 +19,13 @@
         newDiv.appendChild(newLink);
         document.getElementById("links").appendChild(newDiv);
     }
+    let newDiv = document.createElement("div");
+    let newLink = document.createElement("a");
+    let text = document.createTextNode(`Movie Project`);
+    newLink.setAttribute(`href`, `./movieApp`);
+    newLink.appendChild(text);
+    newDiv.appendChild(newLink);
+    document.getElementById("links").appendChild(newDiv);
 </script>
 </body>
 </html>
