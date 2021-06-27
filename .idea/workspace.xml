@@ -96,8 +96,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="1489" />
     <option name="y" value="-125" />
-    <option name="width" value="1440" />
-    <option name="height" value="783" />
+    <option name="width" value="1575" />
+    <option name="height" value="889" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -194,17 +194,17 @@
       <workItem from="1624414943187" duration="641000" />
       <workItem from="1624459794050" duration="12000" />
       <workItem from="1624749827036" duration="1767000" />
-      <workItem from="1624752431531" duration="993000" />
+      <workItem from="1624752431531" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58063000" />
+    <option name="totallyTimeSpent" value="58327000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1489" y="-125" width="1440" height="783" extended-state="0" />
+    <frame x="1489" y="-125" width="1575" height="889" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48211244" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48211244" visible="true" weight="0.16307893" />
       <window_info id="Structure" order="1" sideWeight="0.5178876" side_tool="true" weight="0.11904762" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" weight="0.3343306" />
@@ -222,7 +222,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.5051095" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.437421" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
