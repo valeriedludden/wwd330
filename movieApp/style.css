@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: red;
+    padding: 5px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    text-align: center;
+}
+.popcorn{
+    height: 75px;
+}
+h1{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 75px;
+    margin: auto;
+}
+#searchbar{
+    background-color: red;
+    height: 50px;
+    padding: 20px
+}
+#pag{
+    visibility: hidden;
+    background-color: yellow;
+}

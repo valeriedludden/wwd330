@@ -5,6 +5,7 @@ setInterval( () => {
     squareElement.style.transform = `rotate(${angle}deg)`
 }, 1000/60);
 
+//Makes block 2 spin
 const squareElement2 = document.getElementById('square2');
 let angle2 = 0;
 function rotate() {

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: #2196F3;
+            padding: 5px;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Movie Search</h1>
+<label for="json">Show JSON</label>
+<input type="checkbox" id="json">
+<br>
+<label for="movie">Search Movies</label>
+<input type="text" id="movie">
+<button id="getMovies">Get Moves</button>
+<div id="movieList"></div>
+
+<label for="weather">Get the Weather</label>
+<input type="text" id="weather">
+<button id="getWeather">Get Weather</button>
+<div id="weatherList"></div>
+
+<label for="queryDate">NASA APOD</label>
+<input type="date" id="queryDate">
+<button id="getNasa">Get APOD for Date</button>
+<div class='grid-container'>
+    <div class="grid-item">
+        <h2 id="nasaDate"></h2>
+        <h2 id="nasaTitle"></h2>
+        <img id="nasaImage" src="" height="200px" alt="">
+        <p id="nasaExplanation"></p>
+    </div>
+</div>
+<script src="examples.js"  type="module"></script>
+
+</body>
+</html>

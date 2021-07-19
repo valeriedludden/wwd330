@@ -1,0 +1,79 @@
+{
+    "page": 1,
+    "results":
+    [{
+        "adult": false,
+        "gender": 2,
+        "id": 500,
+        "known_for": [{
+            "adult": false,
+            "backdrop_path": "/auZIuHEUec5tBTns3tCRXfayxZq.jpg",
+            "genre_ids": [28, 878],
+            "id": 137113,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Edge of Tomorrow",
+            "overview": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
+            "poster_path": "/uUHvlkLavotfGsNtosDy8ShsIYF.jpg",
+            "release_date": "2014-05-27",
+            "title": "Edge of Tomorrow",
+            "video": false,
+            "vote_average": 7.6,
+            "vote_count": 10768
+        }, {
+            "adult": false,
+            "backdrop_path": "/yvFtIWMvRS8PUbJOGpkSZk07CB3.jpg",
+            "genre_ids": [28, 878, 12, 9648],
+            "id": 75612,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Oblivion",
+            "overview": "Jack Harper is one of the last few drone repairmen stationed on Earth. Part of a massive operation to extract vital resources after decades of war with a terrifying threat known as the Scavs, Jack’s mission is nearly complete. His existence is brought crashing down when he rescues a beautiful stranger from a downed spacecraft. Her arrival triggers a chain of events that forces him to question everything he knows and puts the fate of humanity in his hands.",
+            "poster_path": "/2ncs7hqBsEjFMqt6Y7ShBCO9tWs.jpg",
+            "release_date": "2013-04-10",
+            "title": "Oblivion",
+            "video": false,
+            "vote_average": 6.6,
+            "vote_count": 8711
+        }, {
+            "adult": false,
+            "backdrop_path": "/hqyjzDRCs1N5gEsh2gklzPdsEFD.jpg",
+            "genre_ids": [28, 53, 12],
+            "id": 56292,
+            "media_type": "movie",
+            "original_language": "en",
+            "original_title": "Mission: Impossible - Ghost Protocol",
+            "overview": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks, who has gained access to Russian nuclear launch codes and is planning a strike on the United States. An attempt to stop him ends in an explosion causing severe destruction to the Kremlin and the IMF to be implicated in the bombing, forcing the President to disavow them. No longer being aided by the government, Ethan and his team chase Hendricks around the globe, although they might still be too late to stop a disaster.",
+            "poster_path": "/7GCKNRbzcA4rJXAKoE8KS9IDnZP.jpg",
+            "release_date": "2011-12-07",
+            "title": "Mission: Impossible - Ghost Protocol",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 7763
+        }],
+        "known_for_department": "Acting",
+        "name": "Tom Cruise",
+        "popularity": 11.825,
+        "profile_path": "/gThaIXgpCm3PCiXwFNDBJCme85y.jpg"
+    }, {
+        "adult": false,
+        "gender": 0,
+        "id": 3104854,
+        "known_for": [],
+        "known_for_department": "Acting",
+        "name": "Tom Cruise",
+        "popularity": 0.6,
+        "profile_path": null
+    }, {
+        "adult": false,
+        "gender": 0,
+        "id": 2852639,
+        "known_for": [],
+        "known_for_department": "Acting",
+        "name": "Tom Cruise Jr.",
+        "popularity": 0.6,
+        "profile_path": null
+    }],
+    "total_pages": 1,
+    "total_results": 3
+}

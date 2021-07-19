@@ -6,10 +6,32 @@
     <title>Movie Picker</title>
 </head>
 <body>
-<h1>Movie Picker</h1>
-<h3>Click button and check console</h3>
-<button onclick="getMovies()">getMovies call</button>
-<button onclick="MAPI()">MAPI call</button>
+
+    <h1><img src="./popcorn.png" class="popcorn">Movie Picker<img src="./popcorn.png" class="popcorn"></h1>
+<!--    <label for="json">Show JSON</label>-->
+<!--    <input type="checkbox" id="json">-->
+<!--    <br>-->
+<!--    <div>-->
+<!--        <lable for="movieSearch">Search by Movie</lable>-->
+<!--        <input type="radio" id="movieSearch" name="searchType" value="movie">-->
+<!--        <lable for="actorSearch">Search by Actor</lable>-->
+<!--        <input type="radio" id="actorSearch" name="searchType" value="actor">-->
+<!--    </div>-->
+<div id="searchbar">
+    <label>Search</label>
+    <input type="text" id="title">
+    <button id="getMovies">Search by Movie</button>
+    <button id="getActor">Search by Actor</button>
+    <br>
+
+</div>
+    <div id="pag">
+        <button id="prev" onclick="getPrev()">prev</button>
+        <button id="next" onclick="getNext()">next</button>
+    </div>
+
+<div id="movieList"></div>
+
 <script src="app.js"></script>
 </body>
 </html>

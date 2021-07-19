@@ -48,7 +48,7 @@
      content: '';
      width: 90px;
      height: 92px;
-     background-image: url(./beach-sunset.jpg);
+     background-image: url('./beach-sunset.jpg');
      display: block;
      margin: auto;
      animation:

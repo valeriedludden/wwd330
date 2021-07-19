@@ -1,0 +1,52 @@
+{
+    "page":1,
+    "results":
+    [{
+        "adult": false,
+        "backdrop_path": "/znSIgcQHSBoU46xb0w3EVTZy4kq.jpg",
+        "genre_ids": [12, 35, 10751],
+        "id": 9340,
+        "original_language": "en",
+        "original_title": "The Goonies",
+        "overview": "A young teenager named Mikey Walsh finds an old treasure map in his father's attic. Hoping to save their homes from demolition, Mikey and his friends Data Wang, Chunk Cohen, and Mouth Devereaux run off on a big quest to find the secret stash of Pirate One-Eyed Willie.",
+        "popularity": 47.387,
+        "poster_path": "/n4WwE5NXxrkd8EBQJMpOURDq4iA.jpg",
+        "release_date": "1985-06-07",
+        "title": "The Goonies",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 4220
+    }, {
+        "adult": false,
+        "backdrop_path": "/wNaR73TnNGHjbsX11Z9F2wp6DFz.jpg",
+        "genre_ids": [99],
+        "id": 589084,
+        "original_language": "en",
+        "original_title": "The Making of 'The Goonies'",
+        "overview": "TV documentary about the making of 'The Goonies'",
+        "popularity": 0.697,
+        "poster_path": "/qSTBaR6uojd9ZWlGQVApxqldyC0.jpg",
+        "release_date": "1985-12-31",
+        "title": "The Making of 'The Goonies'",
+        "video": true,
+        "vote_average": 7,
+        "vote_count": 2
+    }, {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [99],
+        "id": 413173,
+        "original_language": "en",
+        "original_title": "Making of a Cult Classic: The Unauthorized Story of 'The Goonies'",
+        "overview": "A retrospective documentary of the cult classic movie The Goonies. Including interviews with the cast, exploration of the film's locations and unique stories you wont hear anywhere else.",
+        "popularity": 1.32,
+        "poster_path": "/oHxttmaxBfHaVDtHEqNBuWQhNex.jpg",
+        "release_date": "2010-07-13",
+        "title": "Making of a Cult Classic: The Unauthorized Story of 'The Goonies'",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 4
+    }],
+    "total_pages":1,
+    "total_results": 3
+}
