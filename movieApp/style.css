@@ -18,15 +18,34 @@ h1{
     color: white;
     background-color: black;
     text-align: center;
-    font-size: 75px;
+    font-size: 100px;
     margin: auto;
+    padding: 20px;
 }
 #searchbar{
-    background-color: red;
+    background-color: #ffb3b3;
     height: 50px;
     padding: 20px
 }
 #pag{
     visibility: hidden;
-    background-color: yellow;
+    background-color: #ffb3b3;
 }
+button{
+    color: white;
+    background-color: black;
+}
+#pop {
+    margin: 100px;
+    width: 400px;
+    height: 400px;
+    background: white;
+    /*make block 3 spin*/
+    animation: spin 4s linear infinite;
+    background-image: url("popcorn.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+@keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }

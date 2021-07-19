@@ -3,8 +3,6 @@ let json = document.getElementById('json');
 document.getElementById('getMovies').addEventListener('click', getMoviesByTitle);
 document.getElementById('getActor').addEventListener('click', getMoviesByActor);
 document.getElementById('title').addEventListener('change', clearLocalStorage);
-// document.getElementById('movieSearch').addEventListener('click', setURLType);
-// document.getElementById('actorSearch').addEventListener('click', setURLType);
 
 
 async function getMoviesByTitle() {
@@ -76,6 +74,7 @@ async function getMoviesByTitle() {
             }
         });
     document.getElementById('pag').style.visibility = "visible";
+    document.getElementById('pop').style.display = "none";
 }
 
 function movieDetails() {
@@ -187,6 +186,7 @@ async function getMoviesByActor() {
             }
         });
     document.getElementById('pag').style.visibility = "visible";
+    document.getElementById('pop').style.display = "none";
 }
 
 function setPage(currentPage, numPages) {
@@ -242,5 +242,7 @@ function setURLType(){
 
     }
 }
+
+
 
 
