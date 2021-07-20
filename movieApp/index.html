@@ -21,18 +21,25 @@
 <!--        <lable for="actorSearch">Search by Actor</lable>-->
 <!--        <input type="radio" id="actorSearch" name="searchType" value="actor">-->
 <!--    </div>-->
-<div id="searchbar">
-    <label>Search</label>
-    <input type="text" id="title">
-    <div id="sButtons">
+<div id="searchbar" class="navbar">
+    <div class="topRow">
+        <label>Search</label>
+        <input type="text" id="title">
+    </div>
+
+
+    <div id="sButtons" class="topRow">
         <button id="getMovies">Search by Movie</button>
         <button id="getActor">Search by Actor</button>
     </div>
 </div>
 
-    <div id="searchPag">
-        <button  onclick="searchAgain()">Search Again</button>
-        <div id="pagt">
+    <div id="searchPag" class="navbar" >
+        <div class="topRow">
+            <button  onclick="searchAgain()">Search Again</button>
+        </div>
+
+        <div id="pagbuttons" class="topRow">
             <button id="prev" onclick="getPrev()">prev</button>
             <button id="next" onclick="getNext()">next</button>
         </div>

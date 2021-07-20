@@ -73,10 +73,10 @@ async function getMoviesByTitle() {
                 document.getElementById(movie.id).addEventListener('click', movieDetails)
             }
         });
-    document.getElementById('pag').style.display = 'block';
+    // document.getElementById('pag').style.display = 'block';
     document.getElementById('pop').style.display = "none";
     document.getElementById('searchbar').style.display = 'none';
-    document.getElementById('searchPag').style.display = 'block';
+    document.getElementById('searchPag').style.display = 'grid';
 }
 
 function movieDetails() {
@@ -187,7 +187,7 @@ async function getMoviesByActor() {
                 document.getElementById(movie.id).addEventListener('click', movieDetails)
             }
         });
-    document.getElementById('pag').style.display = "block";
+    document.getElementById('pag').style.display = "grid";
     document.getElementById('pop').style.display = "none";
 }
 
@@ -247,7 +247,7 @@ function setURLType(){
 function searchAgain(){
     console.log("Search again");
     document.getElementById('searchPag').style.display = 'none';
-    document.getElementById('searchbar').style.display = 'block';
+    document.getElementById('searchbar').style.display = 'grid';
 }
 
 
