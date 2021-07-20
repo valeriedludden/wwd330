@@ -73,8 +73,10 @@ async function getMoviesByTitle() {
                 document.getElementById(movie.id).addEventListener('click', movieDetails)
             }
         });
-    document.getElementById('pag').style.visibility = "visible";
+    document.getElementById('pag').style.display = 'block';
     document.getElementById('pop').style.display = "none";
+    document.getElementById('searchbar').style.display = 'none';
+    document.getElementById('searchPag').style.display = 'block';
 }
 
 function movieDetails() {
@@ -149,10 +151,10 @@ async function getMoviesByActor() {
         .then(response => response.json())
         .then(actors => {
             //todo remove
-            if (json.checked) {                     //  there is a checkbox at the top of the page for JSON only
-                document.body.innerText = JSON.stringify(actors);       //  if the box is clicked only show the JSON result
-                return;
-            }
+            // if (json.checked) {                     //  there is a checkbox at the top of the page for JSON only
+            //     document.body.innerText = JSON.stringify(actors);       //  if the box is clicked only show the JSON result
+            //     return;
+            // }
 
             //display data from the API call
             let innerHTML = "<div class='grid-container'>";
@@ -185,7 +187,7 @@ async function getMoviesByActor() {
                 document.getElementById(movie.id).addEventListener('click', movieDetails)
             }
         });
-    document.getElementById('pag').style.visibility = "visible";
+    document.getElementById('pag').style.display = "block";
     document.getElementById('pop').style.display = "none";
 }
 
@@ -241,6 +243,11 @@ function setURLType(){
         }
 
     }
+}
+function searchAgain(){
+    console.log("Search again");
+    document.getElementById('searchPag').style.display = 'none';
+    document.getElementById('searchbar').style.display = 'block';
 }
 
 

@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crete+Round:ital@1&family=Jura&family=Luckiest+Guy&family=Monoton&family=Yeseva+One&display=swap"
+          rel="stylesheet">
     <title>Movie Picker</title>
 </head>
 <body>
 
-    <h1><img src="./popcorn.png" class="popcorn">  Movie Finder  <img src="./popcorn.png" class="popcorn"></h1>
+<h1><img src="./popcorn.png" class="popcorn"> Movie Finder <img src="./popcorn.png" class="popcorn"></h1>
 <!--    <label for="json">Show JSON</label>-->
 <!--    <input type="checkbox" id="json">-->
 <!--    <br>-->
@@ -20,20 +24,30 @@
 <div id="searchbar">
     <label>Search</label>
     <input type="text" id="title">
-    <br>
-    <button id="getMovies">Search by Movie</button>
-    <button id="getActor">Search by Actor</button>
-    <br>
-
-</div>
-    <div id="pag">
-        <button id="prev" onclick="getPrev()">prev</button>
-        <button id="next" onclick="getNext()">next</button>
+    <div id="sButtons">
+        <button id="getMovies">Search by Movie</button>
+        <button id="getActor">Search by Actor</button>
     </div>
-    <div id='pop'></div>
+</div>
+
+    <div id="searchPag">
+        <button  onclick="searchAgain()">Search Again</button>
+        <div id="pagt">
+            <button id="prev" onclick="getPrev()">prev</button>
+            <button id="next" onclick="getNext()">next</button>
+        </div>
+    </div>
+
+
+
+<div class="example1">
+    <h3>Welcome to Movie Picker! We hope you enjoy the show!!! </h3>
+</div>
+<div id='pop'></div>
 
 <div id="movieList"></div>
 
 <script src="app.js"></script>
 </body>
 </html>
+

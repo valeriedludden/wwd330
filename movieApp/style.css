@@ -21,22 +21,33 @@ h1{
     font-size: 100px;
     margin: auto;
     padding: 20px;
+    font-family: yeseva One;
 }
 #searchbar{
-    background-color: #ffb3b3;
+    /*red*/
+    /*background-color: #ffb3b3;*/
+    /*yellow*/
+    background-color: #ffe200;
     height: 50px;
     padding: 20px
 }
 #pag{
     visibility: hidden;
-    background-color: #ffb3b3;
+    /*red*/
+    /*background-color: #ffb3b3;*/
+    /*yellow*/
+    background-color: #ffffcc;
 }
 button{
     color: white;
     background-color: black;
+
+}
+button:disabled{
+    background-color: blueviolet;
 }
 #pop {
-    margin: 100px;
+    margin: 100px auto auto auto;
     width: 400px;
     height: 400px;
     background: white;
@@ -48,4 +59,56 @@ button{
     background-repeat: no-repeat;
 
 }
-@keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }
+/*@keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }*/
+
+/*.example1 {*/
+/*    height: 50px;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+/*.example1 h3 {*/
+/*    font-size: 3em;*/
+/*    color: maroon;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    margin: 0;*/
+/*    line-height: 50px;*/
+/*    text-align: center;*/
+/*    !* Starting position *!*/
+/*    -moz-transform:translateX(100%);*/
+/*    -webkit-transform:translateX(100%);*/
+/*    transform:translateX(100%);*/
+/*    !* Apply animation to this element *!*/
+/*    -moz-animation: example1 10s linear infinite;*/
+/*    -webkit-animation: example1 10s linear infinite;*/
+/*    animation: example1 10s linear infinite;*/
+/*}*/
+/*!* Scrool text *!*/
+/*@-moz-keyframes example1 {*/
+/*    0%   { -moz-transform: translateX(100%); }*/
+/*    100% { -moz-transform: translateX(-100%); }*/
+/*}*/
+/*@-webkit-keyframes example1 {*/
+/*    0%   { -webkit-transform: translateX(100%); }*/
+/*    100% { -webkit-transform: translateX(-100%); }*/
+/*}*/
+/*@keyframes example1 {*/
+/*    0%   {*/
+/*        -moz-transform: translateX(100%);*/
+/*        -webkit-transform: translateX(100%);*/
+/*        transform: translateX(100%);*/
+/*    }*/
+/*    100% {*/
+/*        -moz-transform: translateX(-100%);*/
+/*        -webkit-transform: translateX(-100%);*/
+/*        transform: translateX(-100%);*/
+/*    }*/
+/*}*/
+
+/*#pag{*/
+/*    display: none;*/
+/*}*/
+#searchPag{
+    display: none;
+}
