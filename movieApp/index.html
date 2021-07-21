@@ -7,36 +7,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Crete+Round:ital@1&family=Jura&family=Luckiest+Guy&family=Monoton&family=Yeseva+One&display=swap"
           rel="stylesheet">
-    <title>Movie Picker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Exo+2:wght@300&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Bree+Serif&family=Exo+2:wght@300&display=swap"
+          rel="stylesheet">
+    <title>Movie Finder</title>
 </head>
 <body>
 
-<h1><img src="./popcorn.png" class="popcorn"> Movie Finder <img src="./popcorn.png" class="popcorn"></h1>
-<!--    <label for="json">Show JSON</label>-->
-<!--    <input type="checkbox" id="json">-->
-<!--    <br>-->
-<!--    <div>-->
-<!--        <lable for="movieSearch">Search by Movie</lable>-->
-<!--        <input type="radio" id="movieSearch" name="searchType" value="movie">-->
-<!--        <lable for="actorSearch">Search by Actor</lable>-->
-<!--        <input type="radio" id="actorSearch" name="searchType" value="actor">-->
-<!--    </div>-->
-<div id="searchbar" class="navbar">
-    <div class="topRow">
-        <label>Search</label>
-        <input type="text" id="title">
-    </div>
+    <h1><img src="./popcorn.png" class="popcorn"> Movie Finder <img src="./popcorn.png" class="popcorn"></h1>
 
-
-    <div id="sButtons" class="topRow">
-        <button id="getMovies">Search by Movie</button>
-        <button id="getActor">Search by Actor</button>
-    </div>
-</div>
-
-    <div id="searchPag" class="navbar" >
+    <div id="searchbar" class="navbar">
         <div class="topRow">
-            <button  onclick="searchAgain()">Search Again</button>
+            <label class="search">Search</label>
+            <input class="search" type="text" id="title"><span id="error"></span>
+        </div>
+        <div id="sButtons" class="topRow">
+            <button id="getMovies">Search by Movie</button>
+            <button id="getActor">Search by Actor</button>
+        </div>
+    </div>
+    <div id="searchPag" class="navbar">
+        <div class="topRow" id="searchButton">
+            <button onclick="searchAgain()">Search Again</button>
         </div>
 
         <div id="pagbuttons" class="topRow">
@@ -44,15 +38,23 @@
             <button id="next" onclick="getNext()">next</button>
         </div>
     </div>
+    <div id="back2Movie" class="navbar">
+        <div id="back" class="topRow"></div>
+    </div>
+    <div id="actorBanner" class="navbar">
+
+    </div>
 
 
 
-<div class="example1">
-    <h3>Welcome to Movie Picker! We hope you enjoy the show!!! </h3>
-</div>
-<div id='pop'></div>
+    <div id="bannerContainer" class="banner">
+        <h3 id="bannerText">Welcome! We hope you enjoy the show!!! </h3>
+    </div>
+    <div id='pop'></div>
 
-<div id="movieList"></div>
+    <div id="movieList"></div>
+    <div id="errorSpace" class="errorBig">Please enter a valid movie to search for</div>
+    <div id="errorResults" class="errorBig">Sorry, no results were found. <br>Please try again!</div>
 
 <script src="app.js"></script>
 </body>
